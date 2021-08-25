@@ -28,8 +28,19 @@ export const styles = StyleSheet.create({
     marginTop: 20,
   },
   avatar: {
-    width: 50,
-    height: 50,
+    width: 150,
+    height: 150,
     borderRadius: 100,
+  },
+  menuContainer: {
+    marginVertical: 30,
+    marginHorizontal: 50,
+    // alignItems: 'center'
+  },
+  menuBoton: {
+    marginVertical: 10,
+  },
+  menuTexto: {
+    fontSize: 20,
   },
 });
