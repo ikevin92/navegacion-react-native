@@ -16,11 +16,20 @@ export const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     marginRight: 10,
-    marginTop: 10
+    marginTop: 10,
   },
   botonGrandeTexto: {
     color: 'white',
     fontSize: 18,
     fontWeight: 'bold',
+  },
+  avatarContainer: {
+    alignItems: 'center',
+    marginTop: 20,
+  },
+  avatar: {
+    width: 50,
+    height: 50,
+    borderRadius: 100,
   },
 });
